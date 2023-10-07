@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  mw-front:
+    container_name: mw-front
+    hostname: mw-front
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - "80:80"
+    volumes:
+      - ./app:/mw-front/app

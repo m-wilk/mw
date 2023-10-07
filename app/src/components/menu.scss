@@ -1,0 +1,30 @@
+menu {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0px;
+  &.header-menu-black {
+    a.active {
+        color: white;
+    }
+  }
+  &.header-menu-white {
+    color: gray;
+  }
+  nav {
+    ul {
+        margin-bottom: 0;
+        padding-left: 0;
+      li {
+        display: inline-block;
+        margin-right: 32px;
+        height: 53px;
+        line-height: 53px;
+
+        a {
+          color: grey;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

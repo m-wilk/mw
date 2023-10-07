@@ -1,0 +1,22 @@
+.home-hero_component__root {
+  background-color: #ebedf4;
+}
+
+.home-hero_component__wrapper {
+  background-image: linear-gradient(
+    180deg,
+    hsla(0, 0%, 100%, 0.5),
+    hsla(0, 0%, 100%, 0)
+  );
+}
+
+.search-input-wrapper {
+    box-shadow: #ccc 0 5px 16px;
+    background-color: white;
+    padding: 0.75rem;
+    border-radius: 5px;
+    input {
+        border: none;
+        width: 100%;
+    }
+}
