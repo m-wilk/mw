@@ -2,9 +2,8 @@ import "./button.scss";
 
 function Button(props) {
   return (
-    <button className={`btn ${props.extraClass}`}>
+    <button type="button"  className={`btn ${props.extraClass}`}>
       {props.children}
-      
     </button>
   );
 }

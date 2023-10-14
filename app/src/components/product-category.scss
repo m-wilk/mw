@@ -1,0 +1,37 @@
+.product-category {
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+
+  .product-category-img-wrapper {
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    
+    &:hover {
+      bottom: 0;
+    }
+  }
+  .product-category-icon {
+    width: 75px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 130px;
+    z-index: 1;
+    margin: auto;
+  }
+
+  .product-category-picture {
+    height: 160px;
+    width: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+}
